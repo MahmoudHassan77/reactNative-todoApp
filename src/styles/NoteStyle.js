@@ -1,0 +1,44 @@
+import { ScaledSheet } from 'react-native-size-matters';
+export default Styles = ScaledSheet.create({
+    note:{
+        display:"flex",
+        flexDirection:"row-reverse",
+        width:"300@s",
+        borderWidth:1,
+        borderColor:"#cfb559",
+        borderRadius:"10@s",
+        alignItems:"center",
+        padding:"5@s",
+        justifyContent:"space-between",
+        marginTop:"10@s"
+    },
+    noteD:{
+        display:"flex",
+        flexDirection:"row-reverse",
+        width:"300@s",
+        borderWidth:1,
+        borderColor:"#93c572",
+        borderRadius:"10@s",
+        alignItems:"center",
+        padding:"5@s",
+        justifyContent:"space-between",
+        marginTop:"10@s"
+    },
+    noteTextWrapprer:{
+        display:"flex",
+        flexDirection:"row-reverse",
+        alignItems:"center",
+        justifyContent:"flex-start",
+        width:"80%"
+    },
+    noteText:{
+        marginRight:"8@s",
+        fontSize:"13@s",
+        fontWeight:"bold"
+    },
+    noteTextD:{
+        marginRight:"8@s",
+        fontSize:"13@s",
+        textDecorationLine:"line-through"
+    }
+})
